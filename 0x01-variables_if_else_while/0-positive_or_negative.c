@@ -5,7 +5,6 @@
 #include <time.h>
 
 /**
-
  * main - Entry point
 
  *
@@ -53,3 +52,4 @@ printf("%d is zero\n", n);
 return (0);
 
 }
+
