@@ -2,7 +2,7 @@
 /**
  * main - print_putchar
  * is written by mbah
- * Return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -15,5 +15,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (o);
+	return (0);
 }
+
