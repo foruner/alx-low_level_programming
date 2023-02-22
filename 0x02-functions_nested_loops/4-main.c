@@ -6,6 +6,8 @@
  */
 int main(void)
 {
+	int r;
+
 	r = _isalpha('H');
 	_putchar(r + '0');
 	r = _isalpha('o');
