@@ -7,11 +7,11 @@
  */
 int _atoi(char *s)
 {
-	int i, d, len, f, digit,
-
-	    i = 0;
+	int i, d, len, n, f, digit;
+	i = 0;
 	d = 0;
 	n = 0;
+	i = 0;
 	len = 0;
 	f = 0;
 	digit = 0;
@@ -36,6 +36,6 @@ int _atoi(char *s)
 		i++;
 	}
 	if (f == 0)
-		return (o);
+		return (0);
 	return (n);
 }
