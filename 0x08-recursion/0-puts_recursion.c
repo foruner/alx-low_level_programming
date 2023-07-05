@@ -1,13 +1,19 @@
 #include<stdio.h>
 #include"main.h"
+
 /**
- * main - prints a string, followed by a new line.
+ * _puts_putchar - function like puts
  *
- * Return: Always (0)
+ * Return: Always 0 (success)
  */
 
-int main(void)
+void _puts_recursion(char *str)
 {
-	puts("Puts with recursion");
-	return (0);
+	if (*str == '\0')
+	{
+		putchar('\n');
+			return;
+	}
+	putchar(*str);
+	_puts_recursion(str + 1);
 }
