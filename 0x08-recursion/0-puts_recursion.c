@@ -2,8 +2,8 @@
 #include"main.h"
 
 /**
- * _puts_putchar - function like puts
- *
+ * _puts_recursion - function like puts();
+ *@str:input
  * Return: Always 0 (success)
  */
 
