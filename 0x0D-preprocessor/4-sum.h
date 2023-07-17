@@ -1,2 +1,4 @@
 #include<stdio.h>
-#define SUM(X, Y) x + y
+#ifndef SUM_H
+#define SUM_H
+#define SUM(X, y)((x) +( y))
